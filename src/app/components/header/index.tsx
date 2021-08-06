@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
         ml-1
         mr-1
     `}
-`
+`;
 
 export const Header = () => {
     return <HeaderContainer>

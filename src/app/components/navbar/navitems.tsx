@@ -13,7 +13,7 @@ const ItemContainer = styled.ul`
 `
 
 const NavItem = styled.li`
-    color: #ffc400;
+    color: #ff3c00;
     &:hover {
         background-color: #f75211;
         color: #ffffff;

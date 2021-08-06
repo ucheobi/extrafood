@@ -6,7 +6,7 @@ import Steak from "../../../assets/images/steak-food-custom2.jpg"
 const CoverContainer = styled.div`
     background: url(${Steak});
     background-size: cover;
-    height: 400px;
+    height: 350px;
     ${tw`
         flex
         w-screen
@@ -45,7 +45,7 @@ const Description = styled.p`
 
 const Content = styled.div`
     ${tw`
-        top-1/3
+        top-1/4
         flex
         flex-col
         justify-center

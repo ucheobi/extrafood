@@ -1,9 +1,9 @@
-import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Cover } from "../../components/cover";
 import { Header } from "../../components/header";
 import { Navbar } from "../../components/navbar";
+import { MenuContent } from "../../components/menu/menu";
 
 const PageContainer = styled.div`
     ${tw`
@@ -20,5 +20,6 @@ export const HomePage = () => {
         <Header />
         <Navbar />
         <Cover />
+        <MenuContent />
     </PageContainer>
 }

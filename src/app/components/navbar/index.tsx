@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import { NavItems } from "./navitems";
 
 const NavbarContainer = styled.div`
-    background-color: #a4ca18;
+    background-color: #8ad824ce;
     ${tw`
         flex  
         w-full 
