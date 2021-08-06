@@ -4,6 +4,7 @@ import { Cover } from "../../components/cover";
 import { Header } from "../../components/header";
 import { Navbar } from "../../components/navbar";
 import { MenuContent } from "../../components/menu/menu";
+import { Footer } from "../../components/footer";
 
 const PageContainer = styled.div`
     ${tw`
@@ -21,5 +22,6 @@ export const HomePage = () => {
         <Navbar />
         <Cover />
         <MenuContent />
+        <Footer />
     </PageContainer>
 }

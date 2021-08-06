@@ -19,8 +19,8 @@ const NavItem = styled.li`
         color: #ffffff;
     }
     ${tw`
-        text-xs
-        md:text-base
+        text-sm
+        font-semibold
         cursor-pointer
         transition
         duration-300
