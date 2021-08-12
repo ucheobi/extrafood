@@ -3,7 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { Menus } from ".";
 import Burger from "../../../assets/images/burger_600_150.jpg";
-import Salad from "../../../assets/images/greek_salad.jpg";
+import Salad from "../../../assets/images/salad_6001_150.jpg";
 import Steak from "../../../assets/images/steak_600_150.jpg";
 
 import { MenuTitle } from "./menu-category";
@@ -11,11 +11,23 @@ import { MenuTitle } from "./menu-category";
 const MenuContentContainer = styled.div`
     ${tw`
         mb-5
+        mt-4
+        p-3
+        w-full
     `}
 `;
 
+const MenuContentStyle = styled.div`
+    width: 95%;
+    ${tw`
+        mb-10
+        flex
+        flex-col
+    `}
+`
+
 export const MenuContent = () => {
-    return <>
+    return <MenuContentStyle>
         <MenuContentContainer>
             <MenuTitle title="burgers" />
             <Menus 
@@ -60,5 +72,5 @@ export const MenuContent = () => {
                 description="Our classic burger is a slice of cheese, beef, tomato, lettuce, crimpsy, red onion and burger sauce."
             />
         </MenuContentContainer>           
-    </>        
+    </MenuContentStyle>        
 }

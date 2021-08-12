@@ -8,6 +8,7 @@ const CartContainer = styled.div`
         mr-3
         text-center
         text-xs
+        font-semibold
     `}
 `
 
