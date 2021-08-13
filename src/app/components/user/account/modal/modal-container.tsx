@@ -8,7 +8,7 @@ const ModalCover = styled.div`
     width: 100%;
     height: 100%;
     background-color: #302b2ba2;
-    display: ${({ showItem }: ModalProps) => showItem || "" };
+    display: ${({ showItem }: ModalProps) => showItem || "none" };
     ${tw`
         fixed
         items-center

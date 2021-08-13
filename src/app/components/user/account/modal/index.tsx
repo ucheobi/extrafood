@@ -8,8 +8,8 @@ import { ModalContainer } from "./modal-container";
 
 const MainModal = styled.section`
     width: 40%;
-    height: 95%;
-    top: 1em;
+    height: 97%;
+    top: 0.6em;
     ${tw`
         relative
         bg-white     
@@ -19,6 +19,7 @@ const MainModal = styled.section`
         overflow-auto
         mr-auto
         ml-auto
+        rounded-l-lg
     `}
 `;
 

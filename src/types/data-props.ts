@@ -4,7 +4,7 @@ export type AppProps = {
     email: string;
     password: string;
     handler: () => void;
-    count: number;
+    price: number;
     disabled: boolean;
     /** array of a type! */
     names: string[];

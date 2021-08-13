@@ -7,7 +7,8 @@ import { Navbar } from "../../components/navbar";
 import { MenuContent } from "../../components/menu/menu";
 import { Footer } from "../../components/footer";
 import { Modal } from "../../components/user/account/modal";
-import { AccountCtx, ModalCtx } from "../../contextAPI";
+import { AccountCtx, MenuCtx, ModalCtx } from "../../contextAPI";
+import { OrderModal } from "../../components/order/order-modal";
 
 const PageContainer = styled.div`
     ${tw`
@@ -23,6 +24,7 @@ export const HomePage = () => {
 
     const [showUser, setShowUser ] = useState("none");
     const [ showModal, setShowModal ] = useState("")
+    const [showMenu, setShowMenu] = useState("");
 
     const handleShow = () => {
         setShowUser("block")
@@ -43,17 +45,28 @@ export const HomePage = () => {
         setShowUser("none")
     }
 
+    const handleCloseMenu = () => {    
+        setShowMenu("none")
+    }
+
+    const handleOpenMenu = () => {    
+        setShowMenu("block")
+    }
+
 
     return <ModalCtx.Provider value={{ showModal, handleCloseModal, handleOpenModal}}>
         <AccountCtx.Provider value={{ showUser, handleShow, handleClose}}>
-            <PageContainer>
-                <Header />
-                <Navbar />
-                <Cover />
-                <Modal />
-                <MenuContent />
-                <Footer />
-            </PageContainer>
+            <MenuCtx.Provider value={{ showMenu, handleOpenMenu, handleCloseMenu }}>
+                <PageContainer>
+                    <Header />
+                    <Navbar />
+                    <Cover />
+                    <Modal />
+                    <MenuContent />
+                    <OrderModal />
+                    <Footer />
+                </PageContainer>
+            </MenuCtx.Provider>
         </AccountCtx.Provider>
     </ModalCtx.Provider>
 }

@@ -10,8 +10,7 @@ import { MenuTitle } from "./menu-category";
 
 const MenuContentContainer = styled.div`
     ${tw`
-        mb-5
-        mt-4
+        mb-2
         p-3
         w-full
     `}

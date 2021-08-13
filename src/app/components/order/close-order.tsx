@@ -1,17 +1,16 @@
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faTimesCircle } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { ModalCtx } from "../../../../contextAPI";
+import { MenuCtx } from "../../contextAPI";
 
 const CloseBtnContainer = styled.div`
-    right: 26%;
+    right: 1%;
     ${tw`
         cursor-pointer
         z-20
         absolute
-        top-6
     `}
 `;
 
@@ -20,20 +19,19 @@ const TextBtn = styled.span`
         color: #080807;
     }
     ${tw`
-        text-red-900
+        text-gray-900
         font-sans
-        text-5xl
+        text-sm
     `}
 `;
 
-export const CloseButton = () => {
+export const CloseOrder = () => {
 
-    const modalContext = React.useContext(ModalCtx);
+    const menuContext = React.useContext(MenuCtx);
 
-   return  (
-    <CloseBtnContainer onClick={modalContext.handleCloseModal}>
+    return <CloseBtnContainer onClick={menuContext.handleCloseMenu}>
         <TextBtn>
-            <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faTimesCircle}></FontAwesomeIcon>
         </TextBtn>
-    </CloseBtnContainer>)
+    </CloseBtnContainer>
 }

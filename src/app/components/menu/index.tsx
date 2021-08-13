@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { IMenu } from "../../../types/menu";
+import { MenuCtx } from "../../contextAPI";
 
 interface IMenuProps extends IMenu {}
 
@@ -67,14 +68,17 @@ const MenuItem = styled.div`
 export const Menus = (props: IMenuProps) => {
     const {  name, description, price, imageUrl } = props;
 
+    const menuContext = React.useContext(MenuCtx);
+
     return <MenuContainer>
-        <MenuItem>
+        <MenuItem onClick={menuContext.handleOpenMenu}>
             <NamePrice>
                 <Name>{name}</Name>
                 <Price>${price}</Price>
             </NamePrice>
             <Description>{description}</Description>
         </MenuItem>
+
         <Image>
             <img src={imageUrl} alt="" />
         </Image>

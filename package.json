@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
     "@types/styled-components": "^5.1.11",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
