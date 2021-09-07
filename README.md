@@ -1,44 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+ Extraordinary food is an online restaurant demo. The aim is to create a full-stack codebase that covers the client's ordering section and the admin section that helps take and manage orders. It covers the frontend, backend, database, and API. There are several technologies that I've not worked with but I have learned and did - mostly small projects with. I want to put everything together to build a robust and complex project. I am very excited about this project!
 
-## Available Scripts
+At the end of this project, my intention is to create a Youtube video that will show the steps and challenges I faced creating this complex project.
 
-In the project directory, you can run:
+PAGES
+=====
+1. HomePage - This is the first page that contains the listing for different menus and allows users to create a simple account.
 
-### `yarn start`
+NB: Most of the pages are created with modals since there are not many details.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Single food description - Just like the name, it is a description for a specific menu and related menu categories.
+3. User Profile - Contains the details for a user, like personal details, contacts, address, and payments methods.
+4. Order Fulfillment Page - It contains the customer's orders and details of the orders.
+5. Admin Dashboard - This is the page that the admin will use to manage orders, create a new menu, add new employees that help in fulfilling orders, view sales, and more.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
++++These are the ones I have envisioned based on my current requirements, others may come as the project grows+++
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TECHNOLOGIES
+============
++  React - React has been my favorite framework and it's still my preferred framework till date. It's very easy to build and easily composable with all the flexibility to use with other technologies.
++ TypeScript - I've been programming with JavaScript for a long time and learned TypeScriipt. So far I've only done things done some basic stuff with TypeScript therefore this project allows me to explore different possibilities with the language and learn more.
++ TailwindCSS - This is a very cool CSS framework, and with the combination of Styled-components, it can only get better.!!!
++ Styled-component - I've done CSS stylesheets, Advance CSS, Bootstrap and even tried a few frameworks like SASS. I've never seen such an amazing framework like styled-component. With React being a component-based framework, styled-components just make react so much easily portable. CSS has always been a pain in my as* but with styled-components - I'm just having fun!
++ Nest.js - So far I've mostly used Node.js/Express.js as my backend working with REST API. I just discovered this new guy and I'm so loving it! The power, flexibility, decorators everywhere and how it supports GraphQL, TypeORM, and multiple databases, I just love it.
++ Apollo GraphQL -  Ok, now it's getting more interesting! While REST API has been for a while, GraphQL has just made querying data so much easy and fun working with. There is no longer a need to create new code for new endpoints!
++ TypeORM - This is also an amazing Object Relation Mapper that supports, multiple databases and makes the TypeScript seamless. It adds loads of functionalities and definitely a good choice for me.
++ MySQL - Not much to say here as TypeORM helps do the heavy lifting behind the scene through entities and migration support.
++ Redux! (why not?) - I've not yet made up my mind. I will only use this if it's absolutely necessary. For now, i'm working with ContextAPI and it serves my need.
++ Other (more technologies may still show up along the way.
 
-### `yarn build`
+ENTITIES
+=======
+Each of these will be created with full CRUD functionalities.
+1. Customer
+2. Order
+3. Order Details
+4. Menu
+5. User
+6. Payment
+7. Customize
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+More details will come later....
