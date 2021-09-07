@@ -6,11 +6,11 @@ EXTRAORDINARY FOOD DOCUMENTATION
 ![Menu pages](https://user-images.githubusercontent.com/22541205/132354791-7e185d1d-df7e-4e31-a903-d1a0fb24be1a.PNG)
 ![Footer](https://user-images.githubusercontent.com/22541205/132354882-3e88da2d-e6d9-4a29-a339-780833a6a9b9.PNG)
 
-Extraordinary food is an online restaurant demo. The aim is to create a full-stack codebase that covers the client's ordering section and the admin section that helps take and manage orders. It covers the frontend, backend, database, and API. There are several technologies that I've not worked with but I have learned and did - mostly small projects with. I want to put everything together to build a robust and complex project. I am very excited about this project!
+Extraordinary food is an online restaurant demo. The aim is to create a full-stack codebase that covers the client's ordering section and the admin section that helps take and manage orders. It covers the frontend, backend, database, and API. I have learned some new technologies that I've not worked with but created some very basic stuff. Therefore, in this project, I try to put a lot together to build a robust and complex project. I am very excited about this project!
 
 At the end of this project, my intention is to create a Youtube video that will show the steps and challenges I faced creating this complex project.
 
-PAGES
+Main PAGES
 =====
 1. HomePage - This is the first page that contains the listing for different menus and allows users to create a simple account.
 
