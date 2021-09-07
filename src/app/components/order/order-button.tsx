@@ -47,6 +47,6 @@ const OrderPrice = styled.span`
 export const OrderButton = ({ total, text, bgcolor }: OrderProps) => {
     return <OrderBtn color={bgcolor}>
         <OrderText>{text}</OrderText>
-        <OrderPrice>Total: ${total}</OrderPrice>
+        <OrderPrice>Total: ${total}0</OrderPrice>
     </OrderBtn>
 }

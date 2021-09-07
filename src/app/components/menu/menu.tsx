@@ -34,6 +34,7 @@ export const MenuContent = () => {
                 price={5.50}
                 description="Our classic burger is a slice of cheese, beef, tomato, lettuce, crimpsy, red onion and burger sauce."
                 imageUrl={Burger}
+                
             />
             <Menus 
                 name="Chesseburger"

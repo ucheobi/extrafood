@@ -150,8 +150,8 @@ export const OrderModal = () => {
                 <Quantity quantity={1} />
 
                 <OrderBTN>
-                    <OrderButton text="Add to cart" bgcolor="#33cc00" total={8.50} />
-                    <OrderButton text="Order Now" bgcolor="#ff751a" total={8.50} />
+                    <OrderButton text="Add to cart" bgcolor="#2ea004" total={8.50} />
+                    <OrderButton text="Order Now" bgcolor="#f16508" total={8.50} />
                 </OrderBTN>
             </FormContainer>
         </OrderContainer>
