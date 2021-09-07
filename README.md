@@ -1,6 +1,8 @@
 EXTRAORDINARY FOOD DOCUMENTATION
 ================================
+[How It Started!]
 ![Extrafood Verion one](https://user-images.githubusercontent.com/22541205/132354690-8189ee71-92fb-4093-9365-7d0f4a290209.PNG)
+[How It's Going]
 ![Menu pages](https://user-images.githubusercontent.com/22541205/132354791-7e185d1d-df7e-4e31-a903-d1a0fb24be1a.PNG)
 ![Footer](https://user-images.githubusercontent.com/22541205/132354882-3e88da2d-e6d9-4a29-a339-780833a6a9b9.PNG)
 
