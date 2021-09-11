@@ -1,8 +1,10 @@
 EXTRAORDINARY FOOD DOCUMENTATION
 ================================
-[How It's Going]
+[Menu popup] ![menu-popup](https://user-images.githubusercontent.com/22541205/132963513-633c48bd-7559-4527-8d8e-eb0a46817411.png)
+[User popup] ![user-popup](https://user-images.githubusercontent.com/22541205/132963535-b8c94993-639e-41c5-96a3-29277f62a553.png)
 ![Menu pages](https://user-images.githubusercontent.com/22541205/132354791-7e185d1d-df7e-4e31-a903-d1a0fb24be1a.PNG)
 ![Footer](https://user-images.githubusercontent.com/22541205/132354882-3e88da2d-e6d9-4a29-a339-780833a6a9b9.PNG)
+
 
 Extraordinary food is an online restaurant demo. The aim is to create a full-stack codebase that covers the client's ordering section and the admin section that helps take and manage orders. It covers the frontend, backend, database, and API. I have learned some new technologies that I've not worked with but created some very basic stuff. Therefore, in this project, I try to put a lot together to build a robust and complex project. I am very excited about this project!
 
