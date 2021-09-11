@@ -10,6 +10,9 @@ Extraordinary food is an online restaurant demo. The aim is to create a full-sta
 
 At the end of this project, my intention is to create a Youtube video that will show the steps and challenges I faced creating this complex project.
 
+Requirements
+============
+
 Main PAGES
 =====
 1. HomePage - This is the first page that contains the listing for different menus and allows users to create a simple account.
