@@ -36,7 +36,7 @@ TECHNOLOGIES
 + Nest.js - So far I've mostly used Node.js/Express.js as my backend working with REST API. I just discovered this new guy and I'm so loving it! The power, flexibility, decorators everywhere and how it supports GraphQL, TypeORM, and multiple databases, I just love it.
 + Apollo GraphQL -  Ok, now it's getting more interesting! While REST API has been for a while, GraphQL has just made querying data so much easy and fun working with. There is no longer a need to create new code for new endpoints!
 + TypeORM - This is also an amazing Object Relation Mapper that supports, multiple databases and makes the TypeScript seamless. It adds loads of functionalities and definitely a good choice for me.
-+ MySQL - Not much to say here as TypeORM helps do the heavy lifting behind the scene through entities and migration support.
++ MySQL - TypeORM helps do the heavy lifting behind the scene through entities and migration support.
 + Redux! (why not?) - Well, I've not yet made up my mind whether to use Redux or not. I will only use this if it's absolutely necessary as the code is getting more complex to manage and the component drilling is getting more confusing (-_-). For now, i'm working with ContextAPI and it serves my need.
 + Other (more technologies may still show up along the way.
 
